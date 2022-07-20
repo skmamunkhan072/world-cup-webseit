@@ -1,0 +1,34 @@
+.world-cup-galary-container {
+  padding-bottom: 130px;
+}
+.world-cup-item .wrold-cup-vs img {
+  width: 92px;
+  height: 56px;
+  border-radius: 5px;
+}
+
+.wrold-cup-vs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrold-cup-vs h3 {
+  margin: 0 22px;
+}
+.world-cup-vs-taitle {
+  text-align: center;
+  padding-top: 20px;
+}
+.world-cup-vs-taitle h3 {
+  font-size: 20px;
+  font-weight: var(--w-6);
+  font-style: var(--roboto-font);
+}
+.world-cup-vs-taitle p {
+  font-size: 16px;
+  color: #4d4d4d;
+}
+.main-footer-container .footer-taitle h3 {
+  font-style: var(--roboto-font);
+}

@@ -1,0 +1,412 @@
+/*====================================
+      goole font link starts hear  
+=====================================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:ital,wght@0,400;1,300&display=swap");
+/*====================================
+      goole font link Ends hear  
+=====================================*/
+
+/* My custum propaty  */
+:root {
+  --poppins-font: "Poppins", sans-serif;
+  --roboto-font: "Roboto", sans-serif;
+  --w-3: 300;
+  --w-4: 400;
+  --w-5: 500;
+  --w-6: 600;
+  --w-7: 700;
+  --w-9: 900;
+}
+/* ==============================
+comon css start hear 
+============================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--poppins-font);
+}
+
+body {
+  max-width: 2000px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 140px;
+  margin: auto;
+}
+.btn {
+  border: none;
+  outline: none;
+  font-family: var(--poppins-font);
+  font-weight: var(--w-4);
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+/* ==============================
+comon css Ends hear 
+============================== */
+
+/* ================================
+header style starts hear 
+================================ */
+.header {
+  margin-top: 50px;
+  background: #161616;
+  border-radius: 30px;
+  color: #fff;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 33px 80px;
+}
+.hero-left,
+.hero-right {
+  width: 50%;
+}
+.hero-left h1 {
+  font-family: var(--poppins-font);
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+}
+.hero-para {
+  margin-top: 20px;
+}
+.hero-para p,
+.hero-para span {
+  font-weight: var(--w-4);
+  font-size: 16px;
+}
+.hero-para p {
+  display: inline;
+}
+.hero-left .hero-btn {
+  background: #dd0000;
+  border-radius: 5px;
+  width: 187px;
+  height: 56px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.hero-right img {
+  width: 100%;
+  height: 100%;
+}
+
+/* ================================
+header style Ends hear 
+================================ */
+
+/* ================================
+main style starts hear 
+================================ */
+.world-cup-section {
+  display: flex;
+  margin-top: 130px;
+}
+.world-cup-btn-grup {
+  width: 312px;
+  height: 312px;
+  background: #161616;
+  margin-right: 24px;
+  border-radius: 10px;
+}
+
+.world-cup-btn {
+  display: block;
+  width: 252px;
+  height: 64px;
+  line-height: 64px;
+  margin: auto;
+  text-align: center;
+  background: #fff;
+  margin-top: 30px;
+  border-radius: 10px;
+  transition: 0.5s ease-in;
+  cursor: pointer;
+}
+.world-cup-btn a {
+  text-decoration: none;
+  color: #161616;
+  font-size: 20px;
+  font-weight: var(--w-5);
+}
+.active {
+  background: #dd0000;
+}
+.active a {
+  color: #fff;
+}
+.world-cup-wraper {
+  width: 72%;
+  padding-bottom: 118px;
+}
+.world-cup-galary-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.world-cup-galary-container .world-cup-item {
+  border-radius: 10px;
+  box-shadow: 4px 4px 12px #e8e8e8;
+}
+.world-cup-galary-container .world-cup-item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.woeld-text-wreper {
+  padding: 24px 20px;
+}
+
+.item-btn {
+  border: 1px solid #000000;
+  font-size: 16px;
+  font-weight: var(--w-5);
+  border-radius: 5px;
+  color: #000000;
+  padding: 4px 18px;
+  margin: 0px 0 15px 0;
+  cursor: pointer;
+}
+.world-cup-item p {
+  color: #161616;
+  font-weight: 600;
+}
+.tiem-icon-wraper {
+  margin-top: 20px;
+}
+.tiem-icon-wraper i {
+  margin-right: 10px;
+  color: #161616b3;
+}
+.tiem-icon-wraper span {
+  margin-right: 30px;
+  color: #161616b3;
+}
+.view-all-btn-wreper {
+  padding: 50px 0 70px 0;
+  display: none;
+}
+
+/* ================================
+main style Ends hear 
+================================ */
+
+/* ================================
+Footer style starts hear 
+================================ */
+.main-footer-container {
+  background: #161616;
+  padding: 142px 140px 0 140px;
+}
+
+.main-footer-container .footer-taitle h3 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-weight: var(--w-6);
+}
+.main-footer-container .footer-taitle hr {
+  border: 1px solid #ffffff1a;
+  margin-bottom: 30px;
+}
+
+.footer-manu-item-wreaper a,
+.footer-manu-item-wreaper li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 16px;
+  color: #b9b9b9;
+  padding: 15px 10px;
+}
+
+.footer-manu-item-wreaper .footer-link-manu-wraper ul,
+.footer-manu-item-wreaper .foooter-manu-iconwraper ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer-manu-item-wreaper .foooter-manu-iconwraper ul {
+  margin-bottom: 118px;
+  margin-top: 10px;
+}
+.foooter-manu-iconwraper ul li a i {
+  padding: 20px;
+  border: 1px solid #ffffff1a;
+  border-radius: 50%;
+  font-size: 25px;
+  transition: all 0.5s ease-in-out;
+}
+.foooter-manu-iconwraper ul li a i:hover {
+  background: #ffffff4e;
+  color: #d87093;
+}
+
+/* ================================
+Footer style Ends hear 
+================================ */
+
+/* ============================
+responsip starts hear 
+============================ */
+@media screen and (max-width: 576px) {
+  .footer-manu-item-wreaper .foooter-manu-iconwraper ul {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* hero section responsip start  */
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 40px 0 40px;
+  }
+  .hero-left,
+  .hero-right {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .hero-right {
+    width: 100%;
+    overflow: hidden;
+  }
+  .hero-right img {
+    width: 100%;
+    height: 100%;
+    margin-left: 30px;
+  }
+  .hero-left h1 {
+    font-size: 22px;
+    line-height: 50px;
+  }
+  .hero-para .hero-para-elipcis {
+    margin-top: 20px;
+  }
+
+  .hero-left .hero-btn {
+    margin-top: 16px;
+  }
+  /* .world-cup section responsip starts  */
+  .world-cup-btn-grup {
+    flex-direction: column;
+  }
+  .world-cup-btn-grup .world-cup-btn {
+    margin-top: 16px;
+  }
+  .world-cup-wraper .world-cup-galary-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .world-cup-galary-container .tiem-icon-wraper span {
+    margin-right: 30px;
+  }
+  .world-cup-wraper .view-all-btn-wreper {
+    display: none;
+  }
+  .footer-manu-item-wreaper .footer-link-manu-wraper ul,
+  .footer-manu-item-wreaper .foooter-manu-iconwraper ul {
+    flex-direction: column;
+  }
+  .footer-manu-item-wreaper .foooter-manu-iconwraper ul {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    max-width: 2000px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    margin: auto;
+  }
+  .hero-left h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .hero-para {
+    width: 100%;
+  }
+  .hero-para p:nth-child(1) {
+    display: block;
+    width: 90%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .hero-para .hero-para-elipcis {
+    width: 50%;
+    height: 29px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  /* world-cup section responsip starts  */
+  .world-cup-galary-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .view-all-btn-wreper {
+    display: block;
+  }
+  .world-cup-view-btn {
+    display: block;
+    color: #fff;
+    background: #dd0000;
+    font-size: 20px;
+    font-weight: var(--w-5);
+    padding: 15px 55px;
+    border-radius: 5px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .world-cup-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+  }
+  .world-cup-btn-grup {
+    width: 100%;
+    height: 100%;
+    background: #161616;
+    margin-right: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background: #fff;
+  }
+  .world-cup-btn {
+    width: 230px;
+    margin-top: 0;
+    border: 1px solid #e8e8e8;
+  }
+  .world-cup-wraper {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .woeld-text-wreper {
+    padding: 10px 8px;
+  }
+  .tiem-icon-wraper span {
+    margin-right: 7px;
+  }
+}
+@media screen and (max-width: 1400px) {
+}
+
+/* ============================
+responsip Ends hear 
+============================ */
