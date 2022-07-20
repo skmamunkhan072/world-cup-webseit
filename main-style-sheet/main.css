@@ -261,6 +261,9 @@ responsip starts hear
   .footer-manu-item-wreaper .foooter-manu-iconwraper ul {
     flex-direction: column;
   }
+  .main-footer-container {
+    padding: 0;
+  }
 }
 @media screen and (max-width: 768px) {
   /* hero section responsip start  */
@@ -317,6 +320,9 @@ responsip starts hear
   }
   .footer-manu-item-wreaper .foooter-manu-iconwraper ul {
     flex-direction: row;
+  }
+  .main-footer-container {
+    padding: 50px 50px 0 50px;
   }
 }
 
